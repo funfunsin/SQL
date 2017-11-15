@@ -9,6 +9,7 @@ begin
 	where 姓名=@name and 薪水>=@salary
 end
 
+--要按照參數順序@name @salary
 exec 員工薪資查詢 '郭富城',25000
 ------------------------------------------
 
@@ -40,6 +41,7 @@ begin
 	where 姓名=@name and 城市=@city
 end
 
+--沒找到變數就會自動使用預設值
 exec 員工居住地查詢 @name='郭富城'
 
 exec 員工居住地查詢 default,'郭富城'

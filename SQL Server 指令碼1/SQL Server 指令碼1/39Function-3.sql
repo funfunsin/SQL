@@ -5,8 +5,8 @@ create table Products(
 	P_Price money not null default dbo.fnGetDefaultPrice(),
 	P_status bit not null default 1,
 	P_Bdate datetime not null default getdate()
-
 )
+
 
 --假設產品編號P001~P999
 --產生產品編號的函數

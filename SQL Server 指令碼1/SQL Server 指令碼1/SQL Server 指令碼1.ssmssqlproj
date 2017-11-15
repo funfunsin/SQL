@@ -211,17 +211,95 @@
           <AssociatedConnUserName />
           <FullPath>34Stored_Procedure4.sql</FullPath>
         </FileNode>
+        <FileNode Name="35Stored_Procedure5.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A14:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A14</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>35Stored_Procedure5.sql</FullPath>
+        </FileNode>
+        <FileNode Name="36Function.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A14:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A14</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>36Function.sql</FullPath>
+        </FileNode>
         <FileNode Name="36HW6.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A14:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>C501A14</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>36HW6.sql</FullPath>
         </FileNode>
+        <FileNode Name="37Function-2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A14:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A14</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>37Function-2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="38homework6.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A14:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A14</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>38homework6.sql</FullPath>
+        </FileNode>
+        <FileNode Name="39Function-3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A14:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A14</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>39Function-3.sql</FullPath>
+        </FileNode>
+        <FileNode Name="40系統開發概念補充.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A14:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A14</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>40系統開發概念補充.sql</FullPath>
+        </FileNode>
+        <FileNode Name="41Trigger-1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A14:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A14</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>41Trigger-1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="42Trigger-2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A14:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A14</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>42Trigger-2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="43Trigger-3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A14:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A14</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>43Trigger-3.sql</FullPath>
+        </FileNode>
+        <FileNode Name="44Trigger-4.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A14:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A14</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>44Trigger-4.sql</FullPath>
+        </FileNode>
         <FileNode Name="45Cursor.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A14:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>C501A14</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>45Cursor.sql</FullPath>
+        </FileNode>
+        <FileNode Name="46Cursor-2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A14:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A14</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>46Cursor-2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="47Cursor-3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A14:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A14</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>47Cursor-3.sql</FullPath>
+        </FileNode>
+        <FileNode Name="48Transaction.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A14:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A14</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>48Transaction.sql</FullPath>
         </FileNode>
         <FileNode Name="選課狀況查詢.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A14:True</AssociatedConnectionMoniker>

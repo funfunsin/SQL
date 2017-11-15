@@ -1,6 +1,8 @@
 --秖ㄧ计--
+--肚琌秖
 ------------------------------------------------------
 --ミ⊿Τ把计ㄧ计
+--ㄧ计﹚璶Τ肚returns
 create function fnGetSalary()
 	returns money
 as
@@ -12,7 +14,8 @@ end
 -------------------------------------
 select 羱 from 
 
-select dbo.fnGetSalary()
+--穦琩高俱戈程兜
+select dbo.fnGetSalary()  
 -------------------------------------
 --ミ⊿ΤΤ把计ㄧ计琩高瞓┮眔
 create function fnSeacherSalary
@@ -28,6 +31,7 @@ begin
 		return 0
 	return @salary
 end
+select dbo.fnSeacherSalary('A123456789')  
 ---------------------------------------------
 --ミ眔瞓┮眔箇祘
 create proc GetSalary
