@@ -68,8 +68,8 @@
           <FullPath>08select-7.sql</FullPath>
         </FileNode>
         <FileNode Name="0913test.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:C501A14:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>C501A14</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>0913test.sql</FullPath>
         </FileNode>
