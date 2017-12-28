@@ -62,7 +62,7 @@ inner join orderContains on orderList.orderNo=orderContains.orderNo
 inner join meal on orderContains.mealNo=meal.mealNo 
 where taxID='01010101' and taken=1
 
-select distinct orderList.orderNo,orderList.customerID,orderList.orderTime,orderList.total,orderList.takeTime 
+select distinct orderList.orderNo,orderList.customerID,orderList.orderTime,orderList.total
 from orderList 
 inner join orderContains on orderList.orderNo=orderContains.orderNo 
 inner join meal on orderContains.mealNo=meal.mealNo 
@@ -73,3 +73,24 @@ inner join orderList on orderContains.orderNo=orderList.orderNo where taxID='010
 
 select mealName from meal where taxID = '01010101'
 
+SELECT orderContains.orderNo, meal.mealName, orderContains.quantity, meal.price, orderContains.waitingTime, orderContains.finished
+FROM meal INNER JOIN orderContains ON meal.mealNo = orderContains.mealNo
+
+
+
+create trigger [dbo].[CountTotal] on [dbo].[orderContains]
+after insert
+as
+begin
+ declare @stotal money , @orderNo char(10), @mealNo char(8),@waitingTime int,@quantity int
+ select @orderNo = orderNo,@mealNo = mealNo,@quantity = quantity from inserted
+ 
+ select  @waitingTime = mealTime*@quantity from meal where mealNo=@mealNo
+
+ select @stotal = orderList.total + (@quantity*meal.price) from orderContains 
+ inner join orderList on orderContains.orderNo = orderList.orderNo 
+ inner join meal on orderContains.mealNo = meal.mealNo
+ where orderContains.orderNo = @orderNo and orderContains.mealNo = @mealNo
+ update orderContains set waitingTime = @waitingTime where orderNo=@orderNo and mealNo = @mealNo
+ update orderList set total = @stotal where orderNo = @orderNo
+end
